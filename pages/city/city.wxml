@@ -1,0 +1,84 @@
+<!--pages/city/city.wxml-->
+<view class="container">
+	<view class="bg_clas">
+		<image class="bg_pic" mode="WidthFix" src="/image/bg.jpg"></image>
+	</view>
+	<image bindtap="Backhistory" class="rank_pic" mode="WidthFix" src="/image/back.png"></image>
+	<view class="dangao">
+		<image class="dan_1 color_none" src="/image/list/dan_1.png"></image>
+		<image class="dan_2 color_none" src="/image/list/dan_2.png"></image>
+		<image class="dan_3 color_none" src="/image/list/dan_3.png"></image>
+		<image class="dan_4 color_none" src="/image/list/dan_4.png"></image>
+		<image class="dan_5 color_none" src="/image/list/dan_5.png"></image>
+		<image class="dan_6 color_none" src="/image/list/dan_6.png"></image>
+		<image class="dan_7 color_none" src="/image/list/dan_7.png"></image>
+		<image class="dan_8 color_none" src="/image/list/dan_8.png"></image>
+		<image class="dan_9 color_none" src="/image/list/dan_9.png"></image>
+		<image class="dan_10 color_none" src="/image/list/dan_10.png"></image>
+		<image class="dan_11 color_none" src="/image/list/dan_11.png"></image>
+		<image class="dan_12 color_none" src="/image/list/dan_12.png"></image>
+		<image class="dan_13 color_none" src="/image/list/dan_13.png"></image>
+		<image class="dan_14 color_none" src="/image/list/dan_14.png"></image>
+		<image class="dan_15 color_none" src="/image/list/dan_15.png"></image>
+		<image class="dan_16 color_none" src="/image/list/dan_16.png"></image>
+		<image class="dan_17 color_none" src="/image/list/dan_17.png"></image>
+		<image class="dan_18 color_none" src="/image/list/dan_18.png"></image>
+		<image class="dan_19 color_none" src="/image/list/dan_19.png"></image>
+		<image class="dan_20 color_none" src="/image/list/dan_20.png"></image>
+	</view>
+	<view class="city_item">
+		<image src="/image/lang_bg.png"></image>
+		<text>您以贡献12KM</text>
+	</view>
+	<!-- color_none的类代表无色，去掉类显示彩色 -->
+	<view class="city_list">
+		<view class="scrollview">
+			<view class="city_list_len">
+				<view class="city_list_active">
+					<image class="city_1 color_none" bindtap="Cityshow" data-current="1" src="/image/city/city_1.png"></image>
+					<image class="city_2 color_none" bindtap="Cityshow" data-current="2" src="/image/city/city_2.png"></image>
+					<image class="city_3 color_none" bindtap="Cityshow" data-current="3" src="/image/city/city_3.png"></image>
+					<image class="city_4 color_none" bindtap="Cityshow" data-current="4" src="/image/city/city_4.png"></image>
+					<image class="city_5 color_none" bindtap="Cityshow" data-current="5" src="/image/city/city_5.png"></image>
+					<image class="city_6 color_none" bindtap="Cityshow" data-current="6" src="/image/city/city_6.png"></image>
+					<image class="city_7 color_none" bindtap="Cityshow" data-current="7" src="/image/city/city_7.png"></image>
+					<image class="city_8 color_none" bindtap="Cityshow" data-current="8" src="/image/city/city_8.png"></image>
+				</view>
+				<view class="city_list_active">
+					<image class="city_9 color_none" bindtap="Cityshow" data-current="9" src="/image/city/city_9.png"></image>
+					<image class="city_10 color_none" bindtap="Cityshow" data-current="10" src="/image/city/city_10.png"></image>
+					<image class="city_11 color_none" bindtap="Cityshow" data-current="11" src="/image/city/city_11.png"></image>
+					<image class="city_12 color_none" bindtap="Cityshow" data-current="12" src="/image/city/city_12.png"></image>
+					<image class="city_13 color_none" bindtap="Cityshow" data-current="13" src="/image/city/city_13.png"></image>
+					<image class="city_14 color_none" bindtap="Cityshow" data-current="14" src="/image/city/city_14.png"></image>
+					<image class="city_15 color_none" bindtap="Cityshow" data-current="15" src="/image/city/city_15.png"></image>
+					<image class="city_16 color_none" bindtap="Cityshow" data-current="16" src="/image/city/city_16.png"></image>
+				</view>
+				<view class="city_list_active">
+					<image class="city_17 color_none" bindtap="Cityshow" data-current="17" src="/image/city/city_17.png"></image>
+					<image class="city_18 color_none" bindtap="Cityshow" data-current="18" src="/image/city/city_18.png"></image>
+					<image class="city_19 color_none" bindtap="Cityshow" data-current="19" src="/image/city/city_19.png"></image>
+					<image class="city_20 color_none" bindtap="Cityshow" data-current="20" src="/image/city/city_20.png"></image>
+					<image class="city_21 color_none" bindtap="Cityshow" data-current="21" src="/image/city/city_21.png"></image>
+					<image class="city_22 color_none" bindtap="Cityshow" data-current="22" src="/image/city/city_22.png"></image>
+					<image class="city_23 color_none" bindtap="Cityshow" data-current="23" src="/image/city/city_23.png"></image>
+					<image class="city_24 color_none" bindtap="Cityshow" data-current="24" src="/image/city/city_24.png"></image>
+				</view>
+				<view class="city_list_active">
+					<image class="city_25 color_none" bindtap="Cityshow" data-current="25" src="/image/city/city_25.png"></image>
+					<image class="city_26 color_none" bindtap="Cityshow" data-current="26" src="/image/city/city_26.png"></image>
+					<image class="city_27 color_none" bindtap="Cityshow" data-current="27" src="/image/city/city_27.png"></image>
+					<image class="city_28 color_none" bindtap="Cityshow" data-current="28" src="/image/city/city_28.png"></image>
+					<image class="city_29 color_none" bindtap="Cityshow" data-current="29" src="/image/city/city_29.png"></image>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="page_box" wx:if="{{citylist}}" bindtap="Cityhide">
+		<view class="citylist">
+			<image class="city_bg" src="/image/city_bg.png"></image>
+			<image class="citylist_item" src="{{url_img}}"></image>
+			<image class="close" src="/image/close.png"></image>
+		</view>
+	</view>
+</view>

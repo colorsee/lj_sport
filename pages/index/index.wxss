@@ -1,0 +1,93 @@
+/**index.wxss**/
+
+.guild_pic {
+  position: absolute;
+  top: 104rpx;
+  right: 52rpx;
+  width: 174rpx;
+  height: 139rpx;
+}
+
+.logo_pic {
+  position: absolute;
+  top: 266rpx;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 213rpx;
+  height: 49rpx;
+}
+
+.tit_pic {
+  position: absolute;
+  top: 330rpx;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 685rpx;
+  height: 312rpx;
+}
+
+.sprot {
+  position: absolute;
+  top: 667rpx;
+  left: 266rpx;
+  width: 261rpx;
+  height: 283rpx;
+}
+
+.sprot image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.sprot text {
+  position: absolute;
+  bottom: 60rpx;
+  width: 100%;
+  color: #ffffff;
+  font-size: 30rpx;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn_1_pic {
+  position: absolute;
+  top: 1010rpx;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 231rpx;
+  height: 79rpx;
+}
+
+.btn_2_pic {
+  position: absolute;
+  top: 1090rpx;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 231rpx;
+  height: 79rpx;
+}
+
+.ts_page{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 637rpx;
+  height: 958rpx;
+}
+.ts{
+  position: absolute;
+  top: 40rpx;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 555rpx;
+  height: 729rpx;
+}

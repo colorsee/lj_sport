@@ -1,0 +1,48 @@
+<!--runover.wxml-->
+<view class="container">
+  <view class="bg_clas">
+    <image class="bg_pic" mode="WidthFix" src="/image/bg.jpg"></image>
+  </view>
+  <image  bindtap="Backhistory" class="rank_pic" mode="WidthFix" src="/image/back.png"></image>
+  <view class="run_bg">
+    <image src="/image/run_v.png"></image>
+    <text class="txt_t">已完成</text>
+    <text class="txt_c">10.52</text>
+    <text class="txt_b">km</text>
+  </view>
+  <view class="runover_l">
+    <image src="/image/run_s.png"></image>
+    <text>4M/S</text>
+  </view>
+  <view class="runover_r">
+    <image src="/image/run_t.png"></image>
+    <text>00:00:00</text>
+  </view>
+  <image bindtap="Overhidden" wx:if="{{detail}}" class="btn_3_pic" mode="WidthFix" src="/image/btn_3.png"></image>
+  <image bindtap="Shareshow" class="btn_4_pic" wx:if="{{!detail}}" mode="WidthFix" src="/image/btn_4.png"></image>
+  <view class="page_box" wx:if="{{share}}"  bindtap="Sharehide">
+    <view class="share_page" catchtap="Sharestop">
+      <image class="city_bg" src="/image/city_bg.png"></image>
+      <!--获取头像  -->
+      <image  class="head_share" src="/image/bg.jpg"></image>
+      <text class="name_share">姓名</text>
+      <view class="share_km">
+        <image src="/image/run_bg.png"></image>
+        <text>10.56KM</text>
+      </view>
+      <view class="share_l">
+        <text class="txt_1">6`33</text>
+        <text class="txt_2">平均配速</text>
+      </view>
+      <view class="share_r">
+        <text class="txt_1">0.5小时</text>
+        <text class="txt_2">总时长</text>
+      </view>
+      <view class="share_b">
+        <image src="/image/ewma.png"></image>
+        <text>扫码参与活动</text>
+      </view>
+      <canvas canvas-id="shareCanvas" style="width:637rpx;height:958rpx"></canvas> 
+    </view>
+  </view>
+</view>

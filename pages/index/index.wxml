@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="bg_clas">
+    <image class="bg_pic" mode="WidthFix" src="/image/bg.jpg"></image>
+  </view>
+  <navigator url="/pages/rank/rank">
+    <image class="rank_pic" mode="WidthFix" src="/image/rank.png"></image>
+  </navigator>
+  <image bindtap="Showpage" class="guild_pic" mode="WidthFix" src="/image/guild.png"></image>
+  <image class="logo_pic" mode="WidthFix" src="/image/logo.png"></image>
+  <image class="tit_pic" mode="WidthFix" src="/image/tit.png"></image>
+  <view class="sprot">
+    <image class="run_pic" mode="WidthFix" src="/image/run_bg.png"></image>
+    <text>10KM</text>
+  </view>
+  <navigator url="/pages/runover/runover">
+    <image class="btn_1_pic" mode="WidthFix" src="/image/btn_1.png"></image>
+  </navigator>
+  <navigator url="/pages/city/city">
+    <image class="btn_2_pic" mode="WidthFix" src="/image/btn_2.png"></image>
+  </navigator>
+  <view class="page_box" wx:if="{{ts}}">
+    <view class="ts_page">
+      <image class="city_bg" src="/image/city_bg.png"></image>
+      <image class="ts" src="/image/ts.png"></image>
+      <image bindtap="Hidepage" class="close" src="/image/close.png"></image>
+    </view>
+  </view>
+</view>

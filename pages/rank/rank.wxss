@@ -1,0 +1,185 @@
+/* pages/rank/rank.wxss */
+.rank_box {
+	position: absolute;
+	top: 260rpx;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 574rpx;
+	height: 721rpx;
+}
+
+.rank_box .rank_bg,
+.rank_num image {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.rank_num {
+	position: absolute;
+	top: 1050rpx;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 489rpx;
+	height: 133rpx;
+}
+
+.rank_num .txt {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+	font-size: 40rpx;
+	font-weight: bold;
+	text-align: center;
+	line-height: 133rpx;
+}
+
+.rank_num .txt text {
+	font-size: 60rpx;
+	vertical-align: -6rpx;
+}
+
+.scrollview {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+.rank_tit {
+	position: absolute;
+	width: 570rpx;
+	height: 86rpx;
+	top: 0;
+	font-size: 24rpx;
+	line-height: 87rpx;
+	text-align: center;
+}
+
+.rank_list {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 480rpx;
+	height: 590rpx;
+	bottom: 30rpx;
+}
+
+.rank_list_active {
+	width: 100%;
+	height: 86rpx;
+	overflow: hidden;
+	padding: 8rpx 25rpx;
+	box-sizing: border-box;
+	border-bottom: 2rpx dashed rgba(0, 0, 0, 0.5);
+}
+
+.rank_list_active .h {
+	display: block;
+	width: 66rpx;
+	height: 66rpx;
+	float: left;
+	border-radius: 50%;
+	border: 2rpx solid #ffffff;
+}
+
+.rank_list_active .name {
+	width: 248rpx;
+	height: 100%;
+	float: left;
+	margin-top: 8rpx;
+	text-align: center;
+}
+
+.rank_list_active .name text {
+	display: block;
+	font-size: 26rpx;
+}
+
+.rank_list_active .name text:last-child {
+	font-size: 16rpx;
+}
+
+.rank_list_active .number {
+	display: block;
+	float: right;
+	width: 100rpx;
+	height: 50rpx;
+	font-size: 20rpx;
+	line-height: 60rpx;
+	text-align: center;
+}
+
+.rank_list_active .number .th {
+	display: block;
+	width: 58rpx;
+	height: 50rpx;
+	margin: 6rpx auto;
+}
+
+.citylist {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 637rpx;
+	height: 958rpx;
+}
+
+.tks_txt {
+	position: absolute;
+	top: 350rpx;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 595rpx;
+	height: 154rpx;
+}
+
+.ipt_item {
+	position: absolute;
+	width: 100%;
+}
+
+.ipt_item .ipt_tit {
+	display: block;
+	width: 538rpx;
+	height: auto;
+	color: #ffffff;
+	font-size: 30rpx;
+	font-weight: bold;
+	line-height: 50rpx;
+	text-align: justify;
+	margin: 110rpx auto 50rpx;
+	text-shadow: -4rpx -4rpx 10rpx rgba(0, 0, 0, 0.3);
+}
+
+.ipt_item .ipt_tit text {
+	color: #9f3aaa;
+}
+
+.ipt_item input {
+	display: block;
+	width: 538rpx;
+	height: 80rpx;
+	color: #ffffff;
+	font-size: 34rpx;
+	font-weight: bold;
+	margin: 30rpx auto;
+	padding-left: 15rpx;
+	box-sizing: border-box;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-shadow: -4rpx -4rpx 10rpx rgba(0, 0, 0, 0.3);
+}
+

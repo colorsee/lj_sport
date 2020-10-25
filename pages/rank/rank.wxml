@@ -1,0 +1,114 @@
+<!--pages/rank/rank.wxml-->
+<view class="container">
+	<view class="bg_clas">
+		<image class="bg_pic" mode="WidthFix" src="/image/bg.jpg"></image>
+	</view>
+	<image bindtap="Backhistory" class="rank_pic" mode="WidthFix" src="/image/back.png"></image>
+	<view class="rank_box">
+		<image class="rank_bg" src="/image/rank_bg.png"></image>
+		<text class="rank_tit">你当前的名次是第1234名，成绩很不错哦</text>
+		<view class="rank_list">
+			<view class="scrollview">
+				<!-- 前三名 -->
+				<view class="rank_good">
+					<view class="rank_list_active">
+						<image class="h" src="/image/run_v.png"></image>
+						<view class="name">
+							<text>张三</text>
+							<text>111公里</text>
+						</view>
+						<view class="number">
+							<image class="th" src="/image/th1.png"></image>
+						</view>
+					</view>
+					<view class="rank_list_active">
+						<image class="h" src="/image/run_v.png"></image>
+						<view class="name">
+							<text>张三</text>
+							<text>111公里</text>
+						</view>
+						<view class="number">
+							<image class="th" src="/image/th2.png"></image>
+						</view>
+					</view>
+					<view class="rank_list_active">
+						<image class="h" src="/image/run_v.png"></image>
+						<view class="name">
+							<text>张三</text>
+							<text>111公里</text>
+						</view>
+						<view class="number">
+							<image class="th" src="/image/th3.png"></image>
+						</view>
+					</view>
+				</view>
+				<!-- 三名以后 -->
+				<view class="rank_after">
+					<view class="rank_list_active">
+						<image class="h" src="/image/run_v.png"></image>
+						<view class="name">
+							<text>张三</text>
+							<text>111公里</text>
+						</view>
+						<view class="number">
+							<text>4名</text>
+						</view>
+					</view>
+					<view class="rank_list_active">
+						<image class="h" src="/image/run_v.png"></image>
+						<view class="name">
+							<text>张三</text>
+							<text>111公里</text>
+						</view>
+						<view class="number">
+							<text>4名</text>
+						</view>
+					</view>
+					<view class="rank_list_active">
+						<image class="h" src="/image/run_v.png"></image>
+						<view class="name">
+							<text>张三</text>
+							<text>111公里</text>
+						</view>
+						<view class="number">
+							<text>4名</text>
+						</view>
+					</view>
+					<view class="rank_list_active">
+						<image class="h" src="/image/run_v.png"></image>
+						<view class="name">
+							<text>张三</text>
+							<text>111公里</text>
+						</view>
+						<view class="number">
+							<text>4名</text>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<view class="rank_num" bindtap="Rankshow">
+		<image class="" src="/image/rank_num.png"></image>
+		<view class="txt">您的排名为<text>1234</text>名</view>
+	</view>
+	<view class="page_box" wx:if="{{rank}}">
+		<!-- 未中奖弹窗 -->
+		<view class="citylist" wx:if="{{!luck}}">
+			<image class="city_bg" src="/image/city_bg.png"></image>
+			<image class="tks_txt" src="/image/tks_txt.png"></image>
+			<image class="close" src="/image/close.png" bindtap="Rankhide"></image>
+		</view>
+		<!-- 中奖弹窗 -->
+		<view class="citylist" wx:if="{{luck}}">
+			<image class="city_bg" src="/image/city_bg.png"></image>
+			<view class="ipt_item">
+				<view class="ipt_tit">恭喜您，通过自己的不懈努力，获得HOMELINKER运动会<text>最佳运动员（top100）</text>，您将获得链家19周年纪念周边礼包，请按要求填写邮寄信息，我们将在7个工作日内向您邮寄礼品。</view>
+				<input type="text" name="" placeholder="姓名" placeholder-style="color:#ffffff;"/>
+				<input type="tel" name="" placeholder="联系方式"  placeholder-style="color:#ffffff;"/>
+				<input type="text" name="" placeholder="邮寄地址"  placeholder-style="color:#ffffff;"/>
+			</view>
+			<image class="close" src="/image/sure.png" bindtap="Rankhide"></image>
+		</view>
+	</view>
+</view>

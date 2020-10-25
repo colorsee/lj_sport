@@ -1,0 +1,196 @@
+/* pages/runover.wxss */
+.btn_3_pic,
+.btn_4_pic {
+	position: absolute;
+	top: 1010rpx;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 231rpx;
+	height: 91rpx;
+}
+
+.btn_4_pic {
+	width: 306rpx;
+	height: 92rpx;
+}
+
+.run_bg {
+	position: absolute;
+	top: 262rpx;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 454rpx;
+	height: 454rpx;
+}
+
+.run_bg image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.run_bg text {
+	position: absolute;
+	width: 100%;
+	font-size: 20rpx;
+	color: #ffffff;
+	text-align: center;
+}
+
+.run_bg .txt_t {
+	top: 140rpx;
+}
+
+.run_bg .txt_c {
+	top: 180rpx;
+	font-size: 76rpx;
+}
+
+.run_bg .txt_b {
+	bottom: 140rpx;
+}
+
+.runover_l,
+.runover_r {
+	position: absolute;
+	top: 858rpx;
+	width: 213rpx;
+	height: 107rpx;
+}
+
+.runover_l {
+	left: 132rpx;
+}
+
+.runover_r {
+	right: 132rpx;
+}
+
+.runover_l image,
+.runover_r image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.runover_l text,
+.runover_r text {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+	font-size: 40rpx;
+	text-align: center;
+	line-height: 107rpx;
+}
+
+.share_page {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 637rpx;
+	height: 958rpx;
+}
+
+.head_share {
+	position: absolute;
+	top: 90rpx;
+	left: 40rpx;
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 50%;
+}
+
+.name_share {
+	position: absolute;
+	top: 90rpx;
+	left: 140rpx;
+	width: 300rpx;
+	height: 80rpx;
+	color: #ffffff;
+	font-size: 40rpx;
+	font-weight: bold;
+	line-height: 80rpx;
+}
+
+.share_km {
+	position: absolute;
+	top: 216rpx;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 305rpx;
+	height: 335rpx;
+}
+
+.share_km image {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.share_km text {
+	position: absolute;
+	bottom: 70rpx;
+	width: 100%;
+	color: #ffffff;
+	font-size: 36rpx;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: -4rpx -4rpx 10rpx #000000;
+}
+
+.share_l,
+.share_r {
+	position: absolute;
+	top: 582rpx;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 528rpx;
+	height: 200rpx;
+}
+
+.share_l text,
+.share_r text {
+	font-size: 30rpx;
+	color: #ffffff;
+	display: block;
+	font-weight: bold;
+}
+
+.share_l .txt_1,
+.share_r .txt_1 {
+	font-size: 50rpx;
+}
+
+.share_r text {
+	text-align: right;
+}
+.share_b{
+	position: absolute;
+	bottom: 50rpx;
+	left: 40rpx;
+	width: 166rpx;
+	height: 166rpx;
+}
+.share_b image{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.share_b text{
+	position: absolute;
+	bottom: -30rpx;
+	color: #ffffff;
+	font-size: 26rpx;
+	font-weight: bold;
+}
